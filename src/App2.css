@@ -1,0 +1,89 @@
+.hd1{
+display:flex;
+align-items: center;
+justify-content: space-between;
+height: 100px;
+width: 98%;
+border-bottom: 5px solid rgb(255, 210, 8);
+padding-bottom: 50px;
+background-color: rgb(237, 240, 244);
+}
+.hd1_c1{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hd1_c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+}
+.hd1_c1 p{
+    font-size: 20px;
+    color:rgb(27,27,27);
+    
+}
+.hd1_c2 p{
+    font-size: 14px
+}
+.Section-Name{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    border-bottom: 1.5px solid black;
+    align-items: flex-start;
+    margin-left: 80px;
+    width: 85%;
+
+}
+.Profile-Description{
+    display: flex;
+    justify-content:start;
+    max-width: 400px;
+ padding-left: 200px;
+
+
+
+}
+.jobs{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+   
+}
+.Skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 160px;
+
+}
+.Section-Education{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    align-items: flex-start;
+    margin-left: 80px;
+    width: 80%;
+
+}
+.Education{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    justify-content: space-evenly;
+}
+.college1 p{
+    margin: 5px;
+}
+.college2 p{
+    margin: 5px;
+}
